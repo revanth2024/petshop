@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+.headersection{
+    background-color: #FF9432;
+    width: 100%;
+    height: 70px;
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+}
+.logo{
+    padding-top: 13px;
+}
+.headerul ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:roboto;
+    font-size: 18px;
+    padding: 45px;
+}
+.headerul ul li a:hover{
+    color:rgb(102, 102, 102);
+}
+.headerul ul li {
+    list-style-type: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.headerul ul {
+    display: flex;
+    justify-content:space-around;
+    padding-top: 25px;
+}
+.bannerimage{
+    background-image:url(assets/images/Banner.png);
+    background-size: cover;
+    height:700px;
+    background-position:center;
+}
+.bannercontent{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    font-family:jost;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 500px 0px 0px 70px;
+}
+.searchbox{
+    border-radius: 50px;
+    background-color: #FF9432;
+    border: none;
+    padding:10px 10px 10px 20px;
+    width: 250px;
+    outline-style: none;
+}
+.searchbox:hover{
+    background-color: white;
+    outline-style: 1px solid;
+}
+::placeholder{
+    color: black;    
+}
+.searchicon{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    right: 36px;
+    top: 2px;
+    cursor: pointer;  
+}
+.aboutbg{
+    background-image: url(assets/images/aboutbg.png);
+    background-size: cover;
+    height:650px;
+    width: 100%;
+}
+.abouthead{
+    font-family:jost;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 100px 0px 0px 50px;
+}
+.aboutcontent{
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 500;
+    width: 56%;
+    padding: 30px 0px 0px 70px;  
+}
+.aboutcontent ul li{
+    padding-bottom: 25px;
+}
+.breeds{
+    background-color:#FFD3AB;
+    width: 100%;
+    height: auto;
+}
+.breedshead{
+    font-family:jost;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding:80px 0px 55px 0px ;
+    display: flex;
+    justify-content:center;
+}
+.breedsubheading{
+    font-family: Roboto;
+    font-size: 15px;
+}
+.breedsimagesone{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom:50px;
+}
+.breedsimagesone img:hover{
+   transform: scale(1.05);
+   transition-timing-function: ease;
+   transition-duration: 1s;
+}
+.breedsimagestwo{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.breedsimagestwo img:hover{
+    transform: scale(1.05);
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+.breedsimagesone h3{
+    padding-top: 25px;
+}
+.breedsimagestwo h3{
+    padding-top: 25px;
+}
+.button{
+    border-radius: 50px;
+    background-color: #FF9432;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    width: 10%;
+    margin-left:45%;
+    margin-top:50px;
+    margin-bottom: 60px;    
+}
+.button:hover{
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    background-color:white;
+    box-shadow: 2px 2px grey;
+}
+.carbsfoods{
+    background-image: url(assets/images/carbbg.png);
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height:750px;
+}
+.carbheadone{
+    font-family:jost;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;  
+    text-align: end;
+    padding: 200px 100px 0px 0px;      
+}
+.carbheadtwo{
+    font-family: Roboto;
+    font-size: 24px;
+    color: white;
+    width: 25%;
+    position: absolute;
+    right: 134px;
+    margin-top: 35px;    
+}
+.blogbg{
+    background-image: url(assets/images/blogbg.png);
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height:auto;
+}
+.bloghead{
+    text-align: center;
+    padding-top: 60px;
+    font-family:jost;
+    font-size: 20px;
+    font-weight: bold;    
+}
+.blogfirstimage{
+    width:300px;
+    height: 230px;
+    padding: 40px 0px 0px 70px;
+}
+.blogsecondimage{
+    width: 300px;
+    height: 230px;
+    padding: 40px 0px 0px 70px;  
+}
+.blogthirdimage{
+    width:600px;
+    height: 300px;
+    padding: 40px 0px 0px 70px;
+}
+.blogsubheading h3{
+    font-family: Roboto;
+    font-size: 20px;
+    padding: 20px 0px 0px 150px;
+}
+.flexthree h3{
+    padding: 20px 0px 60px 248px;
+}
+.firstblogdiv{
+    display: flex;
+    justify-content:flex-start;
+}
+.trainingbg{
+    background-image: url(assets/images/trainingbg.png);
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height:800px;
+}
+.trainingbg h3{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+}
+.traininghead {
+    font-family:jost;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:70px;
+}
+.trainingone{
+    display:inline-flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.trainingcontentone{
+    padding-top: 40px;
+}
+.trainingone h3{
+    padding-top: 38px;
+}
+.trainingtwo{
+    display:inline-flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 200px;
+}
+.trainingcontenttwo{
+    padding-top: 30px;    
+}
+.trainingthree{
+    display:inline-flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.trainingcontentthree{
+    padding-top: 40px;
+}
+.trainingthree h3{
+    padding-top: 38px;
+}
+.trainingfour{
+    display:inline-flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 200px;
+}
+.trainingcontentfour{
+    padding-top: 30px;
+}
+.productsection{
+    background-color: #8E8C8A;
+    width: 100%;
+    height: 400px;
+}
+.producthead{
+    font-family:jost;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 35px;
+}
+.productsection h5{
+    font-family: Roboto;
+    font-size: 20px;
+    width: 80%;
+    padding-left: 25px;
+}
+.foodfirstimage{
+    width: 200px;
+    height: 200px;
+    padding-top: 35px;
+}
+.foodsecondimage{
+    width: 200px;
+    height: 200px;
+    padding-top: 35px;
+}
+.foodthirdimage{
+    width: 200px;
+    height: 200px;
+    padding-top: 35px;
+}
+.foodfourimage{
+    width: 200px;
+    height: 200px;
+    padding-top: 35px;
+}
+.productsimages{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.subscribehead{
+    font-family:jost;
+    font-size: 20px;
+    font-weight: bold; 
+    margin-top: 50px;
+    margin-left: 115px;
+}
+.inputtag{    
+    margin-top: 25px;
+    border-radius: 100px;
+    width: 500px;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+.subsbutton{
+    margin: 0px -118px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    background-color: #FF9432;
+    cursor: pointer;
+    border: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.subscribesection{
+  display: flex;
+  justify-content:space-between;
+}
+.subscribeimage{
+    margin-right: -31px;
+}
+.footerpart{
+    background-color: #FF9432;
+    width: 100%;
+    height:300px;
+    margin-top: -4px;
+}
+.footerpart ul{
+    list-style-type: none; 
+    color: black;
+    font-family: jost;
+    font-size: 15px;        
+}
+.flexfooter{
+    display: flex;
+    justify-content: space-around;
+}
+.flexfooter h3{
+    padding-top: 40px;
+}
+.flexfooter ul{
+    padding-top: 15px;
+}
+.flexfooter h3{
+    color: white;
+    font-family: jost;
+    font-size: 20px;   
+}
+.flexfooter ul li{
+    padding: 5px 0px;
+}
+.conducticon{
+    position: relative;
+    top: 4px;
+    padding-top: 4px;
+}
+.mailicon{
+    position: relative;
+    top: 4px;
+}
+.locationicon{
+    position: relative;
+    top: 4px;
+}
+.copyrights{
+    color: black;
+    font-family: jost;
+    font-size: 15px;
+    padding-left: 88px;
+}
+
+
+
+@media screen and (max-width:575px){
+    .main{
+        overflow: hidden;
+    }
+    .logo{
+        height: 20px;
+        width: 50px; 
+        padding-top: 5px;
+    }
+    .headerul ul li a{
+         font-size: 10px; 
+         padding: 0px 10px 0px 10px;       
+    }
+    .headerul ul{
+        padding: 5px 0px 10px 0px;
+    }   
+    .headersection{
+        width: 100%;
+        height: auto;
+    }    
+    .bannerimage{
+        background-size: cover;
+    }
+    .bannerimage{
+        height: 244px;
+        width: 100%;
+    }
+    .bannercontent{
+        padding: 170px 0px 0px 10px;
+        font-size: 8px;
+        gap: 0px;
+    }
+    input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color:black;
+        font-size: 7px;
+        }
+      input::-moz-placeholder { /* Firefox 19+ */
+        color: black;
+      }
+      input:-ms-input-placeholder { /* IE 10+ */
+        color: black;
+      }
+      input:-moz-placeholder { /* Firefox 18- */
+        color: black;
+      }
+    .searchbox{
+        width: 40%;
+        padding: 0px 10px 5px 7px;
+    }
+    .searchicon{
+        height: 8px;
+        width: 8px;
+        right: 18px;
+    }
+    .aboutbg{
+        height: 200px;
+        width: 100%;
+    }
+    .abouthead{
+        font-size: 10px;
+        padding: 10px 0px 0px 10px;
+    }
+    .aboutcontent{
+        font-size: 8px;
+        padding: 10px 0px 0px 20px;
+    }
+    .aboutcontent ul li{
+        padding-bottom: 2px;
+    }
+    .breedsimagesone{
+        display: block;
+        padding-bottom: 0px;
+    }
+    .breedshead{
+        font-size: 15px;
+        padding: 30px 0px 30px 0px;
+    }
+    .breedsimagesone h3{
+        padding-bottom: 25px;
+    }
+    .breedsimagestwo{
+        display: block;
+    }
+    .breedsimagestwo h3{
+        padding-bottom: 25px;
+    }
+    .viewmorebutton{
+        display: flex;
+        justify-content: center;
+    }
+    .button{
+        width: 37%;
+        align-items: center;
+        margin: 20px;
+    }
+    .carbsfoods{
+        width: 100%;
+        height: 400px;
+    }
+    .carbheadone{
+        font-size: 15px;
+        padding: 50px 0px;
+        text-align: center;
+    }
+    .carbheadtwo{
+        width: 70%;
+        font-size: 15px;
+        text-align: center;
+        position: unset;
+        padding: 0px 0px 0px 45px;  
+        margin: unset;      
+    }
+    .bloghead{
+        padding: 30px 0px;
+    }
+    .firstblogdiv{
+        display: block;
+    }
+    .blogfirstimage{
+        padding: 0px 0px 0px 65px;
+        width: 200px;
+        height: 140px;
+    }
+    .blogsubheading h3{
+        padding: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .blogsecondimage{
+        padding: 0px 0px 0px 65px;
+        width: 200px;
+        height: 140px;
+    }
+    .blogthirdimage{
+        height: 100px;
+        width: 200px;
+        padding: 0px 0px 0px 65px;        
+    }
+    .trainingbg{
+        height: 425px;
+        width: 100%;
+        background-position: center;
+    }
+    .traininghead{
+        font-size: 15px;
+        padding: 30px 0px;
+    }
+    .trainingcontentone{
+        padding: 0px;
+    }
+    .trainingone{
+        padding: 0px ;
+        justify-content: space-around;
+    }
+    .trainingbg h3{
+        font-size: 10px;
+    }
+    .trainingtwo{
+        margin: 0px;
+        padding: 0px 20px;
+    }
+    .trainingtwo{
+        justify-content: space-around;
+    }
+    .trainingcontenttwo{
+        padding: 0px;
+    }
+    .trainingcontentthree{
+        padding: 0px;
+    }
+    .trainingthree{
+        padding: 0px ;
+        justify-content: space-around;
+    }
+    .trainingfour{
+        margin: 0px;
+        padding: 0px 20px;
+    }
+    .trainingfour{
+        justify-content: space-around;
+    }
+    .trainingcontentfour{
+        padding: 0px;
+    }
+    .producthead{
+        font-size: 15px;
+    }
+    .productsimages{
+        display: block;
+    }
+    .productsection{
+        width: 100%;
+        height: auto;
+    }
+    .foodfirstimage{
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+    }
+    .foodsecondimage{
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+    }
+    .foodthirdimage{
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+    }
+    .foodfourimage{
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+    }
+    .productsection h5{
+        width: 100%;
+        padding: 0px 0px 20px 0px;
+    }
+    .subscribehead{
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+    .subscribeimage{
+        margin: 0px;
+    }
+    .inputtag{
+        width: 265px;
+        margin: 0px;
+        padding: 5px 10px;
+    }
+    .subsbutton{
+        margin: 0px -98px;
+        padding: 5px 10px;
+    }
+    .subscribesection{
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexfooter{
+        display: block;
+    }
+    .footerpart{
+        height: auto;
+    }
+    .flexfooter h3{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .copyrights{     
+        padding: 30px 0px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:1367px) {
+    .carbheadone{
+        padding: 200px 228px 0px 0px
+    }
+    .copyrights {
+        padding-left: 154px;
+    }
+}
+
+
+
